@@ -19,5 +19,6 @@ dfs = pd.read_html('Sample_ADPH.html', header=0)
 
 data1_df = dfs[0]
 print(type(data1_df))
-
 print(data1_df)
+
+# %%

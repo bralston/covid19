@@ -1,0 +1,15 @@
+<class 'pandas.core.frame.DataFrame'>
+   County of Residence  Cases  Reported Deaths  Died From Illness
+0              Autauga     17                1                  1
+1              Baldwin     56                1                  0
+2              Barbour      7                0                  0
+3                 Bibb      9                0                  0
+4               Blount     11                0                  0
+..                 ...    ...              ...                ...
+63              Walker     70                0                  0
+64          Washington     11                1                  1
+65              Wilcox     16                0                  0
+66             Winston      3                0                  0
+67               Total   2769               74                 48
+
+[68 rows x 4 columns]
