@@ -1,0 +1,18 @@
+#  python project to create a web scraper
+#  will pull data from ADPH site for daily by county counts in Alabama
+#  of positive tested, deaths recorded, and cases resolved
+
+
+#  url for ADPH
+
+#  filename for storing data
+
+#
+
+from bs4 import BeautifulSoup
+import requests
+
+with open('sample_ADPH.html') as html_file:
+    soup = BeautifulSoup(html_file, 'lxml')
+
+print(soup)
